@@ -1,0 +1,90 @@
+Data sctructure
+vector and matrices (headquartes) //
+register
+
+what's a data structure:  is a structuree from data of memory for computer or any dispositive to stack up, with the correctly way to use this data with the right way. This structure are using for a lot application os developmento for systems, and some of them are specialixxed and to specifyc tasks. We are using the correct structure by algorithms to work with data quantitty like applications to search. 
+one algortih is a group of estructure instructions and ordered to some goal or to do some task or specific operation. The algorithms are use to manager data on structures for a lot ways, for example: insert, exclude, search and ordered data. 
+Algorithms: in some data structure we need to know how toe some group of basic operations, for example: insert data, exclude data, locate some element, process all the itens which constitue the structure to vise. Classify the resume to stock the itens in data for a determine order ( numeric, alfabetic ) // Principal structure of data: arrays (vectors and headquartes), register, list, stock, row, three, table hash, graphs
+
+## arrays: vector anthe heardquart are structure from data simple to help when a lot of variable are available at the same algorithm. portugol-webstudio.cubos.io/ide // you can create the variable and insert the name1, name2, name4, name5. for example this structure // Vector or array is an unidimensional for a variable to save a lot of variables from the same type. The vector is a structure from data index, to save a determine quantity from values from one type. 
+
+program{
+    funcao inicio() {
+        inteiro numeros[] = {39,45,54,55}
+
+        escreva(numero[0])
+    }
+}
+
+programa{
+    funcao inicio() {
+        inteiro numero[] = {39,45,54,55}
+
+        para(inteiro posicao = 0; posicao <=3; posicao++){
+            escreva(numeros[posicao], " ")
+        }
+    }
+}
+
+programa
+{
+    funcao inicrio()
+    {
+        inteiro vetor[] = {1,3,5,7,9} // Criar o vetor com valor 
+        inteiro numero
+        logico achou = falso // variável paraenas o resultado
+        
+        escreva("Qual número deseja procuraR?")
+        leia(numero
+        
+        para(inteiro posicao = 0; psoicao < 5; posicao ++))
+            }
+}
+
+...
+
+programa
+{
+    funcao incio()
+    {
+        // criacao dos vetores, já com os dadosados
+        cadeia nome[] = { "Andrew", "Tiffany", "Bianca", "Susan", "Cameron"}
+        real altura[] = { 1.71, 1.78, 1.75, 1.87, 1.71}
+
+        // created a top from this table
+        escreva("---------------\n")
+        escreva("    TABELA     \n")
+        escreva("----------------\n")
+    }
+}
+
+para(inteiro posicao = 0; posicao <5; posicao++)
+{
+
+    // o the special character \t serve to write one table
+
+}
+
+Headquarte or array multi dimensiona is a vector from vectores. The headquarter is a vector which had two or more dimensions. 
+
+programa
+{
+    inclua biblioteca Util --> u
+    funcao inicio()
+    {
+        // define the dimension (row and columns) from headquarte
+        const inteiro TAMANHO= 5
+        // created the quarterhead
+        inteiro[TAMANHO][TAMANHO]
+
+        para (inteiro linha = 0; linha < TAMANHO; linha++)
+        {
+            para(inteiro coluna = 0; coluna < TAMANHO; coluna++)
+            {
+                [linha][coluna] = u.sorteia(1,9) /// atribute the random value fot this headquarter
+                escreva("[", matrixx[linha][coluna], "]")  /// exibition of the value contain in position of heardquarter
+            }
+            escreva("\n")
+        }
+    }
+}
