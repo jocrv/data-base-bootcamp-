@@ -88,3 +88,36 @@ programa
         }
     }
 }
+
+Register: register is a structure with a special format specialixxed to store the informations on memory. While Arrays allow store data from a just ony type data, resources of register on allow store from more than one type of data.  example cpf, number, text... One register is composed with fields with specify each one of this information which composed itself. Above some fields for example which constited some register from costumers:
+cpf
+name
+address
+contact
+## we can mixxed differents numbers in some register
+
+all structure have one name for example a book, and the fields, it could acess by some quite of using operation point(.) For example, to acess the price of some book, we could using this declaration: 
+book.price
+
+algorithm
+//declare the type of data
+type
+structure_book = register
+name : character
+price : real
+page : integer
+endregister
+//delcare the variables
+i integer
+book array[1...3] from structure_book
+
+Write("Among names, price and number of pages from three books")
+for i from 2 to 3 do //lecture the data
+Read(book[i]. name, book[i].pages)
+endto
+Write("This is data typed")
+to i from 1 to 3 do
+Write(livro[i] name[i] price, book[i]. pages)
+endto
+ENDALGORITHM
+
