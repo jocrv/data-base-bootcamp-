@@ -1,5 +1,5 @@
 Data sctructure
-vector and matrices (headquartes) //
+vector and matrices (headquarters) //
 register
 
 what's a data structure:  is a structuree from data of memory for computer or any dispositive to stack up, with the correctly way to use this data with the right way. This structure are using for a lot application os developmento for systems, and some of them are specialixxed and to specifyc tasks. We are using the correct structure by algorithms to work with data quantitty like applications to search. 
@@ -32,7 +32,7 @@ programa
     {
         inteiro vetor[] = {1,3,5,7,9} // Criar o vetor com valor 
         inteiro numero
-        logico achou = falso // variável paraenas o resultado
+        logico achou = falso // variável para apenas o resultado
         
         escreva("Qual número deseja procuraR?")
         leia(numero
